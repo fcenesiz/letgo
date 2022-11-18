@@ -1,10 +1,9 @@
-package com.fcenesiz.user.controller;
+package com.fcenesiz.letgouser.controller;
 
+import com.fcenesiz.letgouser.service.UserService;
 import com.fcenesiz.user.dto.CreateUserRequest;
 import com.fcenesiz.user.dto.UpdateUserRequest;
 import com.fcenesiz.user.dto.UserDto;
-import com.fcenesiz.user.model.User;
-import com.fcenesiz.user.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

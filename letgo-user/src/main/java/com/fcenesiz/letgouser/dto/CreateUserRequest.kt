@@ -1,4 +1,4 @@
-package com.fcenesiz.user.dto
+package com.fcenesiz.user.dto;
 
 data class CreateUserRequest(
     val mail: String,

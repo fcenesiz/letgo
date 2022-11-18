@@ -1,12 +1,12 @@
-package com.fcenesiz.user.service;
+package com.fcenesiz.letgouser.service;
 
+import com.fcenesiz.letgouser.dto.UserDtoConverter;
+import com.fcenesiz.letgouser.exception.UserNotFoundException;
+import com.fcenesiz.letgouser.repository.UserRepository;
 import com.fcenesiz.user.dto.CreateUserRequest;
 import com.fcenesiz.user.dto.UpdateUserRequest;
 import com.fcenesiz.user.dto.UserDto;
-import com.fcenesiz.user.dto.UserDtoConverter;
-import com.fcenesiz.user.exception.UserNotFoundException;
 import com.fcenesiz.user.model.User;
-import com.fcenesiz.user.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

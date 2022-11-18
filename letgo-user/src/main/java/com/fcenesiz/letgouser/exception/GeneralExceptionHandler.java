@@ -1,4 +1,4 @@
-package com.fcenesiz.user.exception;
+package com.fcenesiz.letgouser.exception;
 
 import org.jetbrains.annotations.NotNull;
 import org.springframework.context.support.DefaultMessageSourceResolvable;

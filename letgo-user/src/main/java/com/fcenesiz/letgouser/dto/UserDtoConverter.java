@@ -1,5 +1,6 @@
-package com.fcenesiz.user.dto;
+package com.fcenesiz.letgouser.dto;
 
+import com.fcenesiz.user.dto.UserDto;
 import com.fcenesiz.user.model.User;
 import org.springframework.stereotype.Component;
 
@@ -9,7 +10,8 @@ public class UserDtoConverter {
         return new UserDto(
                 from.getMail(),
                 from.getFirstName(),
-                from.getLastName()
+                from.getLastName(),
+                from.getMiddleName()
         );
     }
 }
